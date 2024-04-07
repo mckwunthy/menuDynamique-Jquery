@@ -1,0 +1,52 @@
+/********** APP***********/
+#app {
+    border: 1px solid var(--main-color);
+    width: 1200px;
+    margin: 100px auto;
+}
+
+/********** UL***********/
+
+#app nav ul li {
+    position: relative;
+    flex-grow: 1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    /* width: 100%; */
+
+    background-color: var(--main-color);
+    border: 3px ridge var(--main-color-black);
+    color: var(--main-color-white);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+#app nav ul li div {
+    position: absolute;
+}
+
+/* #app nav ul li:hover ul {
+    //it was done in jquery
+    display: block;
+} */
+
+/********** menu niveau 2***********/
+ul.niveau-2 {
+    width: 221px;
+    position: absolute;
+    top: 55px;
+}
+
+/********** animation menu niveau 1***********/
+#app nav ul li:hover {
+    background-color: var(--main-color-black);
+}
+
+/********** APP***********/
+/********** APP***********/
+/********** APP***********/
